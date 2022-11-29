@@ -1,0 +1,74 @@
+body{
+    background-image: url("../imagenes/Bulldog.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    display:inline;
+    justify-content: center;
+    align-items:center;
+}
+nav{
+    display: flex;
+    padding: 15px;
+    justify-content: start;
+    background-image: url("../imagenes/prueba.jpg");
+    border-radius: 30px;
+
+}
+nav ul{
+    margin-right: 10px;
+}
+nav ul li{
+    display: flex;
+    line-height: 80px;
+    margin-left: 10px;
+}
+li img{
+    width: 75px;
+    height: 75px;
+    float: right;
+}
+a{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: black;
+}
+a:active{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: black;
+}
+.contenedor{
+    padding-top: 3vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.contenedor div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    border: 2px black;
+    border-collapse: collapse;
+}
+
+.contenedor div img{
+    
+    width: 60px;
+    height: 60px;
+    float: right;
+}

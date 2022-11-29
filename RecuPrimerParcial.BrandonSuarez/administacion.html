@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos-admin.css">
+    <title>Administracion</title>
+</head>
+<body>
+    <nav>
+        <ul><a href="">Administracion</a></ul>
+        <ul><a href="index.html">Anuncios</a></ul>
+        <ul><a href="">Blog</a></ul>
+        <ul><a href="">Contacto</a></ul>
+        <li><a href=""><img src="./imagenes/img_72966.png" alt=""></a></li>
+    </nav>
+    <main>
+        <br>
+        <section class="form">
+            <div class="formAlta">
+                <h3>Informacion Del Anuncio</h3>
+                <br>
+                <form id="form-alta">
+                    <input type="hidden" name="txtId">
+                    <label for="txtTitulo">TITULO:</label>
+                    <br><br>
+                    <input type="text" name="txtTitulo" placeholder="Titulo" autocomplete="off">
+                    <br><br>
+                    <label for="txtDescri">DESCRIPCION:</label>
+                    <br><br>
+                    <input type="text" name="txtDescri" placeholder="Descripcion" autocomplete="off">
+                    <br><br>
+                    <label for="rdoTipo">ANIMAL:</label>
+                    <br><br>
+                    <div class="rdo">
+                        <label for="rdoTipo">PERRO:</label>
+                        <input type="radio" name="rdoTipo" value="Perro" checked>
+                        <label for="rdoTipo">GATO:</label>
+                        <input type="radio" name="rdoTipo" value="Gato">
+                    </div>
+                    <br><br>
+                    <br><br>
+                    <label for="txtPrecio">PRECIO:</label>
+                    <br><br>
+                    <input type="number" name="txtPrecio" placeholder="Precio" autocomplete="off">
+                    <br><br>
+                    <div>
+                        <input type="text" name="txtRaza"  placeholder="Raza" autocomplete="off">
+                        <input type="date" name="txtFecha" autocomplete="off">
+                        <select name="txtVacunas">
+                            <option value="si">SI</option>
+                            <option value="no">NO</option>
+                        </select>
+                        <br>
+                    </div>
+                    <div class="checkboxs">
+                        <label for="txtBox1">Desparacitado</label>
+                        <input type="checkbox" name="Box1" id="txtBox1" value="Desparacitado">
+                        <label for="txtBox2">No desparacitado</label>
+                        <input type="checkbox" name="Box2" id="txtBox2" value="No desparacitado">
+                    </div>
+                    <br><br>
+                    <div class="botones">
+                        <input type="submit" value="Guardar" id="btnSave">
+                        <input type="button" value="Eliminar" id="btnDelete">
+                        <input type="button" value="Cancelar" id="btnCancelar">
+                    </div>
+                </form>
+            </div>
+            <div class="Mensaje"></div>
+        </section>
+        <br>
+        <section class="tabla">
+            <h3>Listado de Ventas</h3>
+            <br>
+            <div class="spin"></div>
+            <div class="divTabla"></div>
+        </section>
+    </main>
+    <br>
+    <footer>
+        <nav>
+            <ul><a href="">Administracion</a></ul>
+            <ul><a href="index.html">Anuncios</a></ul>
+            <ul><a href="">Blog</a></ul>
+            <ul><a href="">Contacto</a></ul>
+        </nav>
+        <p>Todos los derechos reservados 2022 &copy;</p>
+    </footer>
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+#form-alta{
+    box-sizing: border-box;
+    width: 600px;
+    padding: 16px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-collapse: collapse;
+    background-image: url("../imagenes/Nav2.jpg");
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 1000;
+}
+label{
+    display: flex;
+    border-radius: 30px;
+    background-color: white;
+    width: 75px;
+}
+/*CSS BODY:*/
+body{
+    background-image: url("../imagenes/Anuncios.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+/*CSS TABLA:*/
+table{
+    border-collapse: collapse;
+}
+th{
+    text-transform: capitalize;
+    background-color: indianred;
+}
+th,td{
+    border: 1px solid black;
+    padding: 3px 5px;
+    
+}
+td{
+    background-color: aliceblue;
+}
+.divTabla{
+    display: flex;
+    justify-content: center;
+}
+/*CSS NAV Y CONTENIDO:*/
+nav{
+    display: flex;
+    padding: 15px;
+    justify-content: start;
+    background-image: url("../imagenes/prueba.jpg");
+    border-radius: 30px;
+
+}
+nav ul{
+    margin-right: 10px;
+}
+nav ul li{
+    display: flex;
+    line-height: 80px;
+    margin-left: 10px;
+}
+li img{
+    width: 75px;
+    height: 75px;
+    float: right;
+}
+a{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: black;
+}
+a:active{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: black;
+}
+/*CSS H'S:*/
+h3{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    margin: auto;
+    background-color:whitesmoke;
+    width: 300px;
+    padding: 12px;
+    border-radius: 100px;
+    border-color: black;
+}
+/*CSS BOTONES:*/
+.botones{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.botones>#btnSave{
+    background-color: greenyellow;
+}
+/*.botones>#btnDelete{
+    background-color: coral;
+}*/
+/*.botones>#btnCancelar{
+    background-color: orange;
+}*/
+.rdo{
+    display: flex;
+    justify-content: center;
+}
+/*CSS SPINNER:*/
+.spin{
+    display: flex;
+    justify-content: center;
+}
+.Mensaje{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
